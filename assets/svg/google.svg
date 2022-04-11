@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_15052" data-name="Group 15052" transform="translate(-86 -715)">
+    <g id="Google" transform="translate(86 715.327)">
+      <g id="Create_Account" data-name="Create Account">
+        <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(0 -0.327)" fill="#fff" stroke="#b3b7ca" stroke-width="1">
+          <rect width="50" height="50" rx="15" stroke="none"/>
+          <rect x="0.5" y="0.5" width="49" height="49" rx="14.5" fill="none"/>
+        </g>
+      </g>
+      <g id="google-2" data-name="google" transform="translate(11.198 11.308)">
+        <path id="Path_25" data-name="Path 25" d="M285.4,225.914a16.289,16.289,0,0,0-.239-2.814H272.1v5.334h7.481a6.411,6.411,0,0,1-2.769,4.209V236.1h4.463A13.527,13.527,0,0,0,285.4,225.914Z" transform="translate(-258.249 -211.745)" fill="#4285f4"/>
+        <path id="Path_26" data-name="Path 26" d="M41.277,335.5a13.259,13.259,0,0,0,9.181-3.344L46,328.692A8.4,8.4,0,0,1,33.506,324.3H28.9v3.568A13.853,13.853,0,0,0,41.277,335.5Z" transform="translate(-27.427 -307.794)" fill="#34a853"/>
+        <path id="Path_27" data-name="Path 27" d="M6.024,158.871a8.3,8.3,0,0,1,0-5.3V150h-4.6a13.863,13.863,0,0,0,0,12.438Z" transform="translate(0.05 -142.365)" fill="#fbbc04"/>
+        <path id="Path_28" data-name="Path 28" d="M41.277,5.464A7.527,7.527,0,0,1,46.591,7.54l3.954-3.954a13.312,13.312,0,0,0-9.268-3.6A13.848,13.848,0,0,0,28.9,7.617l4.6,3.568A8.285,8.285,0,0,1,41.277,5.464Z" transform="translate(-27.427 0.018)" fill="#ea4335"/>
+      </g>
+    </g>
+  </g>
+</svg>
