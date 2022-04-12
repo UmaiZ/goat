@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 import 'package:goat/helpers/colors.dart';
+import 'package:goat/screens/profile/complete_profile_1.dart';
 
 import 'home_screen.dart';
 
@@ -16,6 +17,11 @@ class MainHome extends StatefulWidget {
 
 class _MainHomeState extends State<MainHome> {
   Controller controller = Get.put(Controller());
+
+  final pages = [
+    HomeScreen(),
+    complete_p1(),
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -95,7 +101,7 @@ class _MainHomeState extends State<MainHome> {
             },
           ),
 
-          body: HomeScreen(),
+          body: pages[controller.count.value],
         ));
   }
 }

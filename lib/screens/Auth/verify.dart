@@ -7,6 +7,8 @@ import 'package:goat/screens/first_screen.dart';
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/style.dart';
 
+import '../profile/complete_profile_1.dart';
+
 class VerifyScreen extends StatefulWidget {
   const VerifyScreen({Key? key}) : super(key: key);
 
@@ -23,11 +25,16 @@ class _VerifyScreenState extends State<VerifyScreen> {
     double res_height = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           Container(
-            height: res_height * 0.35,
+            child: Image.asset('assets/images/h2.png'),
           ),
+                    SizedBox(height: res_height * 0.025,),
+
+          Text('Verify Phone', style: TextStyle(color: kPrimaryColor, fontFamily: 'boutrosMedium', fontSize: 25),),
+          SizedBox(height: res_height * 0.025,),
           Container(
               width: res_width * 0.92,
               child: Text(
@@ -74,7 +81,7 @@ class _VerifyScreenState extends State<VerifyScreen> {
           ),
           GestureDetector(
             onTap: () {
-              Get.to(() => MainScreen());
+              Get.to(() => complete_p1());
             },
             child: Container(
               width: res_width * 0.92,

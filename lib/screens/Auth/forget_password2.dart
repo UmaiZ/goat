@@ -23,11 +23,16 @@ class _ForgetPasswordTwoState extends State<ForgetPasswordTwo> {
     double res_height = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           Container(
-            height: res_height * 0.35,
+            child: Image.asset('assets/images/h2.png'),
           ),
+                    SizedBox(height: res_height * 0.025,),
+
+          Text('Verify OTP', style: TextStyle(color: kPrimaryColor, fontFamily: 'boutrosMedium', fontSize: 25),),
+          SizedBox(height: res_height * 0.025,),
           Container(
               width: res_width * 0.92,
               child: Text(

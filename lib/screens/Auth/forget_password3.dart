@@ -22,11 +22,16 @@ class _ForgetPasswordThreeState extends State<ForgetPasswordThree> {
     double res_width = MediaQuery.of(context).size.width;
     double res_height = MediaQuery.of(context).size.height;
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           Container(
-            height: res_height * 0.35,
+            child: Image.asset('assets/images/h2.png'),
           ),
+                    SizedBox(height: res_height * 0.025,),
+
+          Text('Reset New Password', style: TextStyle(color: kPrimaryColor, fontFamily: 'boutrosMedium', fontSize: 25),),
+          SizedBox(height: res_height * 0.025,),
           Container(
             height: res_height * 0.015,
           ),
