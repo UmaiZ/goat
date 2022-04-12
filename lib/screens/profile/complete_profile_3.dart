@@ -384,7 +384,9 @@ class _complete_p3State extends State<complete_p3> {
                 )
               ],
             ),
-            Divider(color: Colors.black,),
+            Divider(
+              color: Colors.black,
+            ),
             Obx(() => Text(
                   'Average Rate ${controller.countAverage()} / 100',
                   style: TextStyle(fontFamily: 'boutrosMedium', fontSize: 21),

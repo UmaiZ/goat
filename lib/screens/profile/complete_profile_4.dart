@@ -701,7 +701,6 @@ class profile4Controller extends GetxController {
   }
 
   changeIndex(int i) {
-    // print(i);
     type.value = i;
     update();
   }
