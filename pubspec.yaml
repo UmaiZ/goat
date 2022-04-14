@@ -69,6 +69,7 @@ flutter:
     - assets/images/
     - assets/svg/
     - assets/icons/
+    - assets/images/uni.png
 
   fonts:
     - family: boutrosBold

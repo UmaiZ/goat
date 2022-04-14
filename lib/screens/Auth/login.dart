@@ -5,6 +5,7 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:goat/helpers/colors.dart';
 import 'package:goat/screens/Auth/forget_password.dart';
 import 'package:goat/screens/Auth/social_auth.dart';
+import 'package:goat/screens/profile/profile_services_provider.dart';
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/style.dart';
 
@@ -168,7 +169,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           GestureDetector(
             onTap: () {
-              Get.to(() => MainHome());
+              Get.to(() => profile_sp());
             },
             child: Container(
               width: res_width * 0.92,
